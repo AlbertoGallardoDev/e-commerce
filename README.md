@@ -38,4 +38,29 @@ This project is a simple e-commerce application built with React. It features a 
 
 1. **Clonar el Repositorio / Clone the Repository**:
    ```bash
-   git clone https://github.com/tuusuario/nombre-del-repositorio.git
+   git clone https://github.com/AlbertoGallardoDev/e-commerce.git
+
+2. **Ejecutar la Aplicación / Run the Application**:
+   ```npm start
+
+## Versiones / Versions
+
+**V.1.0.0**
+
+- **Implementación inicial**: Implementación inicial de la aplicación de comercio electrónico con funcionalidades básicas como el listado de productos, carrito de compras, y proceso de pago simulado.
+
+- **Initial implementation**: Initial implementation of the e-commerce application with basic functionalities including product listing, shopping cart, and simulated checkout process.
+
+**V.1.0.1**
+
+- **Mejoras en la navegación**: Se añadieron íconos de navegación en la cabecera para facilitar el acceso a los productos y al carrito.
+- **Adaptaciones para dispositivos móviles**: Ajustes en el diseño para mejorar la experiencia de usuario en dispositivos móviles.
+- **Corrección de errores**: Se solucionaron varios errores menores y se mejoró la estabilidad de la aplicación.
+
+- **Navigation improvements**: Navigation icons were added to the header to facilitate access to products and the cart.
+- **Mobile adaptations**: Design adjustments were made to enhance the user experience on mobile devices.
+- **Bug fixes**: Several minor bugs were fixed, and the overall stability of the application was improved.
+
+
+
+

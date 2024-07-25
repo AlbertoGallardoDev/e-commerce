@@ -1,4 +1,9 @@
 /* Estilos generales */
+
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -14,13 +19,44 @@ body {
     padding: 30px;
     background-color: #1b1b1b;
     color: #ddd;
-    flex-wrap: nowrap; /* Mantener elementos en línea en pantallas grandes */
+    flex-wrap: nowrap;
+}
+
+/* Cabecera con Íconos de Navegación */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    background-color: #2c2c2c;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.header h1{
+    font-size: 20px;
+}
+
+.nav-icon {
+    margin: 0 15px;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-icon:hover {
+    color: #e67e22;
 }
 
 /* Lista de productos */
 .product-list {
     width: 70%;
     padding-right: 20px;
+    margin-top: 60px; /* Ajuste para la cabecera fija */
 }
 
 /* Contenedor de productos */
@@ -118,6 +154,7 @@ body {
 
 /* Contenedor del carrito */
 .cart {
+    margin-top: 8rem;
     border-radius: 7px;
     width: 30%;
     padding: 30px;
@@ -201,7 +238,7 @@ body {
 
 /* Botón de Checkout */
 .checkout-button {
-    background-color: #27ae60; /* Color verde para indicar una acción positiva */
+    background-color: #27ae60;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -216,10 +253,9 @@ body {
 }
 
 .checkout-button:hover {
-    background-color: #2ecc71; /* Cambio de color al pasar el mouse */
-    transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+    background-color: #2ecc71;
+    transform: scale(1.05);
 }
-
 
 /* Adaptaciones para pantallas más pequeñas */
 @media (max-width: 768px) {
@@ -268,6 +304,10 @@ body {
         padding: 10px;
     }
 
+    .product-card:hover {
+        transform: scale(1.00);
+    }
+
     .product-title {
         font-size: 1em;
     }
@@ -282,5 +322,10 @@ body {
 
     .cart-total {
         font-size: 1.2em;
+    }
+
+    .notification {
+        margin: 0 2rem;
+        right: 0px;
     }
 }
