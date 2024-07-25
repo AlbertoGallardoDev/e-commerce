@@ -41,7 +41,8 @@ This project is a simple e-commerce application built with React. It features a 
    git clone https://github.com/AlbertoGallardoDev/e-commerce.git
 
 2. **Ejecutar la Aplicación / Run the Application**:
-   ```npm start
+   ```bash
+   npm start
 
 ## Versiones / Versions
 
